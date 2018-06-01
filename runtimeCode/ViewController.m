@@ -17,8 +17,23 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    NSURL *url = [NSURL URLWithString:@"www.baidu.com"];
+    NSLog(@"%@",url);
+    
+    
+    NSMutableArray *arr = [[NSMutableArray alloc]init];
+    [arr addObject:@"1"];
+    [arr addObject:@"2"];
+    [arr addObject:@"3"];
+//    [arr addObject:nil];
+    NSLog(@"%@",arr);
 }
 
+
+-(void)showMessege
+{
+    NSLog(@"lllala");
+}
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];

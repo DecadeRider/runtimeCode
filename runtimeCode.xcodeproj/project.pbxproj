@@ -15,6 +15,9 @@
 		B702381E20443CED00589AB1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B702381D20443CED00589AB1 /* main.m */; };
 		B702382820443CEE00589AB1 /* runtimeCodeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B702382720443CEE00589AB1 /* runtimeCodeTests.m */; };
 		B702383320443CEE00589AB1 /* runtimeCodeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B702383220443CEE00589AB1 /* runtimeCodeUITests.m */; };
+		B70238422044478300589AB1 /* NSURL+url.m in Sources */ = {isa = PBXBuildFile; fileRef = B70238412044478300589AB1 /* NSURL+url.m */; };
+		B702384520444DD900589AB1 /* NSMutableArray+array.m in Sources */ = {isa = PBXBuildFile; fileRef = B702384420444DD900589AB1 /* NSMutableArray+array.m */; };
+		B72B2B5F20858D2700975B49 /* myclass.m in Sources */ = {isa = PBXBuildFile; fileRef = B72B2B5E20858D2700975B49 /* myclass.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,12 @@
 		B702382E20443CEE00589AB1 /* runtimeCodeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = runtimeCodeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B702383220443CEE00589AB1 /* runtimeCodeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = runtimeCodeUITests.m; sourceTree = "<group>"; };
 		B702383420443CEE00589AB1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B70238402044478300589AB1 /* NSURL+url.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSURL+url.h"; sourceTree = "<group>"; };
+		B70238412044478300589AB1 /* NSURL+url.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSURL+url.m"; sourceTree = "<group>"; };
+		B702384320444DD900589AB1 /* NSMutableArray+array.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+array.h"; sourceTree = "<group>"; };
+		B702384420444DD900589AB1 /* NSMutableArray+array.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+array.m"; sourceTree = "<group>"; };
+		B72B2B5D20858D2700975B49 /* myclass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = myclass.h; sourceTree = "<group>"; };
+		B72B2B5E20858D2700975B49 /* myclass.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = myclass.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +119,12 @@
 				B702381920443CED00589AB1 /* LaunchScreen.storyboard */,
 				B702381C20443CED00589AB1 /* Info.plist */,
 				B702381D20443CED00589AB1 /* main.m */,
+				B70238402044478300589AB1 /* NSURL+url.h */,
+				B70238412044478300589AB1 /* NSURL+url.m */,
+				B702384320444DD900589AB1 /* NSMutableArray+array.h */,
+				B702384420444DD900589AB1 /* NSMutableArray+array.m */,
+				B72B2B5D20858D2700975B49 /* myclass.h */,
+				B72B2B5E20858D2700975B49 /* myclass.m */,
 			);
 			path = runtimeCode;
 			sourceTree = "<group>";
@@ -265,7 +280,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B70238422044478300589AB1 /* NSURL+url.m in Sources */,
 				B702381320443CED00589AB1 /* ViewController.m in Sources */,
+				B72B2B5F20858D2700975B49 /* myclass.m in Sources */,
+				B702384520444DD900589AB1 /* NSMutableArray+array.m in Sources */,
 				B702381E20443CED00589AB1 /* main.m in Sources */,
 				B702381020443CED00589AB1 /* AppDelegate.m in Sources */,
 			);
@@ -431,6 +449,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				ENABLE_STRICT_OBJC_MSGSEND = NO;
 				INFOPLIST_FILE = runtimeCode/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.jie.runtimeCode;
@@ -444,6 +463,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				ENABLE_STRICT_OBJC_MSGSEND = NO;
 				INFOPLIST_FILE = runtimeCode/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.jie.runtimeCode;
